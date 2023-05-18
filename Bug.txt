@@ -1,0 +1,18 @@
+Part 4 ,
+
+Causes:
+Verification is missing  on the card level. 
+I noticed in the code that verification is missing to ensure that card belong to person using the card.
+Token isn't utilized to check for authorization for card. We see in api call in CardInterface.kt that only the card number is used.
+In this case ownership isn't checked and a fraudlent person can use someone else's card.
+
+
+
+Fix:
+
+Checking ownership of the card as start
+
+Since the the list of the cards can be pulled using the function, getCard(), 
+We can get the user token to see which card is associated with which user so server can check and validate which card (token) belongs to which user (id). 
+In case 2 fields match, then the program should allow the transaction. 
+This will mitigate the issue , fix the vulnerability and stop the misuse of card  . 

@@ -1,0 +1,27 @@
+1.What are the two types of Intents?
+
+  2 types of intent are implicit and explicit.
+SecondFragment.kt uses the Implicit Intent where the android component isn't specified .
+ThirdFragment.kt uses the Explicit Intent, it's invoking an external class and specifies the component. 
+
+
+2.Which of the two types of Intents is more secure ?
+
+Explicit Intents are more secure becauseandroid component is provided. 
+
+
+3.What type of Intent is shown on lines 69 to 73 of SecondFragment.kt?
+Implicit
+
+4.What type of Intent is shown on lines 68 to 70 of ThirdFragment.kt?
+Explicit
+
+
+5.Which of these two Intents is the proper way to do an Intent?
+Explicit - ThirdFragment.kt
+
+
+Fix
+the Intent used SecondFragment.kt is not correct since it is implied.
+I copied lines 68-69 from ThirdFragment.kt into SecondFragment.kt. 
+Copied lines of code specifies the proper activity .

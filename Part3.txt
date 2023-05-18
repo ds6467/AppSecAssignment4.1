@@ -1,0 +1,12 @@
+Modified files
+- GetCard.kt
+-SecondFragment.kt
+-ThirdFragment.kt
+-UseCard.kt
+- CardRecyclerViewAdapter.kt
+-RecyclerViewAdapter.kt
+
+strings.xml
+Reporter.kt
+ProductScrollingActivity.kt
+CardScrollingActivity.kt
