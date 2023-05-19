@@ -48,17 +48,14 @@
             android:name=".CardScrollingActivity"
             android:label="@string/title_activity_scrolling_card"
             android:theme="@style/Theme.GiftcardSite.NoActionBar">
-		<activity
-    android:name=".MainActivity"
-    android:exported="true"
-    android:theme="@style/Theme.MyApplication.NoActionBar">
-    <intent-filter>
-        <action android:name="android.intent.action.MAIN" />
-        <category android:name="android.intent.category.LAUNCHER" />
-    </intent-filter>
-</activity>
 
         </activity>
+		<activity
+		     android:name="com.example.giftcardsite.MainActivity>"
+             android:exported="true" >
+		
+		
+		
     </application>
 
 </manifest>
